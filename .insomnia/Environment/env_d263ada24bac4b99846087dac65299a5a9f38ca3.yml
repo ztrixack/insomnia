@@ -1,0 +1,14 @@
+_id: env_d263ada24bac4b99846087dac65299a5a9f38ca3
+type: Environment
+parentId: wrk_d9299604fe754ae28000fced497c07ab
+modified: 1681028608989
+created: 1681028279653
+name: Base Environment
+data:
+  url_v1: "{{ _.host }}:{{ _.port }}/api/v1"
+dataPropertyOrder:
+  "&":
+    - url_v1
+color: null
+isPrivate: false
+metaSortKey: 1681028279653

@@ -1,0 +1,16 @@
+_id: env_76186ee8219a4720ac5cf153ee6c0a92
+type: Environment
+parentId: env_d263ada24bac4b99846087dac65299a5a9f38ca3
+modified: 1681028623927
+created: 1681028449039
+name: production
+data:
+  host: http://localhost
+  port: "80"
+dataPropertyOrder:
+  "&":
+    - host
+    - port
+color: null
+isPrivate: false
+metaSortKey: 1681028449039

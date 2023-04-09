@@ -1,0 +1,21 @@
+_id: req_2916414f279e45289aa70942afc8ae73
+type: Request
+parentId: wrk_d9299604fe754ae28000fced497c07ab
+modified: 1681029679537
+created: 1681028279655
+url: "{{ _.url_v1 }}/system/healthy"
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1681028279655
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

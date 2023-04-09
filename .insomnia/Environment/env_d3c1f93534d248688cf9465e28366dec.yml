@@ -1,0 +1,16 @@
+_id: env_d3c1f93534d248688cf9465e28366dec
+type: Environment
+parentId: env_d263ada24bac4b99846087dac65299a5a9f38ca3
+modified: 1681028619764
+created: 1681028441783
+name: develop
+data:
+  host: http://localhost
+  port: "80"
+dataPropertyOrder:
+  "&":
+    - host
+    - port
+color: null
+isPrivate: false
+metaSortKey: 1681028441783

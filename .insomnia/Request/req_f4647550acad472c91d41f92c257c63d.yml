@@ -1,0 +1,21 @@
+_id: req_f4647550acad472c91d41f92c257c63d
+type: Request
+parentId: fld_d1d6bb57730e4c8fa897b683a1074b28
+modified: 1681028673690
+created: 1681028655302
+url: "{{ _.url_v1 }}/machines"
+name: List
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1681028655302
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

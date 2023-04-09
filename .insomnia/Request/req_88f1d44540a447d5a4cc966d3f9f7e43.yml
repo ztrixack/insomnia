@@ -1,0 +1,21 @@
+_id: req_88f1d44540a447d5a4cc966d3f9f7e43
+type: Request
+parentId: fld_a470105518ce42739e0cb3aca15dbc4d
+modified: 1681028726168
+created: 1681028704441
+url: "{{ _.url_v1 }}/machines/1/slots"
+name: List
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1681028704441
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
