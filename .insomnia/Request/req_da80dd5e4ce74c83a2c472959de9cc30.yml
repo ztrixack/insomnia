@@ -1,10 +1,10 @@
-_id: req_88f1d44540a447d5a4cc966d3f9f7e43
+_id: req_da80dd5e4ce74c83a2c472959de9cc30
 type: Request
-parentId: fld_aeed4720406848e3bc40d7a5d255ed92
-modified: 1681051175605
-created: 1681028704441
-url: "{{ _.url_v1 }}/machines/1/slots"
-name: List
+parentId: fld_086c7f1642c6401695cff4de3d5e05ba
+modified: 1681050719825
+created: 1681050500340
+url: "{{ _.url_v1 }}/auth/token"
+name: Refresh Token
 description: ""
 method: GET
 body: {}
@@ -12,9 +12,9 @@ parameters: []
 headers: []
 authentication:
   type: bearer
-  prefix: Bearer
-  token: "{{ _.access_token }}"
-metaSortKey: 0
+  prefix: "Bearer "
+  token: "{{ _.refresh_token }}"
+metaSortKey: -840525194661
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

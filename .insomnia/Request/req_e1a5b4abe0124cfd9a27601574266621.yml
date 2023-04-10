@@ -1,17 +1,17 @@
-_id: req_2916414f279e45289aa70942afc8ae73
+_id: req_e1a5b4abe0124cfd9a27601574266621
 type: Request
-parentId: wrk_d9299604fe754ae28000fced497c07ab
-modified: 1681029679537
-created: 1681028279655
-url: "{{ _.url_v1 }}/system/healthy"
+parentId: fld_d45ad5b1952f44449d2b1b3c4f6dec65
+modified: 1681098790619
+created: 1681098755180
+url: http://localhost:8082/api/v1/link2500/test
 name: New Request
 description: ""
-method: GET
+method: POST
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1681028279655
+metaSortKey: -1681098755180
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

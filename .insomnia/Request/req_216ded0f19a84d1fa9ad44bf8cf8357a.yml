@@ -1,0 +1,33 @@
+_id: req_216ded0f19a84d1fa9ad44bf8cf8357a
+type: Request
+parentId: fld_4dc05cb191c3409496e8aed4dfd70728
+modified: 1681062776773
+created: 1681062765007
+url: "{{ _.url_v1 }}/report/payment/download"
+name: Payment Download
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_9010a8b518e4496d8ea7ed0bdc668231
+    name: from
+    value: 2023-04-07T10:10:00.000Z
+    description: ""
+    disabled: false
+  - id: pair_2bca3de16f8346ea9d74c71b0e7c0b06
+    name: to
+    value: 2023-04-07T10:20:00.000Z
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  prefix: Bearer
+  token: "{{ _.access_token }}"
+metaSortKey: 100
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

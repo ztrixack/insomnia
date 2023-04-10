@@ -1,0 +1,33 @@
+_id: req_afadbf6cadf74457bd6f987918449127
+type: Request
+parentId: fld_4dc05cb191c3409496e8aed4dfd70728
+modified: 1681062753525
+created: 1681033029641
+url: "{{ _.url_v1 }}/report/payment"
+name: Payment
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_9010a8b518e4496d8ea7ed0bdc668231
+    name: from
+    value: 2023-04-07T10:10:00.000Z
+    description: ""
+    disabled: false
+  - id: pair_2bca3de16f8346ea9d74c71b0e7c0b06
+    name: to
+    value: 2023-04-07T10:20:00.000Z
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  prefix: Bearer
+  token: "{{ _.access_token }}"
+metaSortKey: 50
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

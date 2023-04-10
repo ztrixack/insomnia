@@ -1,10 +1,10 @@
-_id: req_88f1d44540a447d5a4cc966d3f9f7e43
+_id: req_ff33e6219c344505806c4fe81d4e5db5
 type: Request
-parentId: fld_aeed4720406848e3bc40d7a5d255ed92
-modified: 1681051175605
-created: 1681028704441
-url: "{{ _.url_v1 }}/machines/1/slots"
-name: List
+parentId: fld_c8a5371a5c214c76acbe2c9f7e323adb
+modified: 1681145301487
+created: 1681090250827
+url: "{{ _.url_v1 }}/sync/5/transactions"
+name: Get Transaction
 description: ""
 method: GET
 body: {}
@@ -14,7 +14,7 @@ authentication:
   type: bearer
   prefix: Bearer
   token: "{{ _.access_token }}"
-metaSortKey: 0
+metaSortKey: -1681090250827
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

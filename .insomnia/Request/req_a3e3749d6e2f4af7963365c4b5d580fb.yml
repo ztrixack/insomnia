@@ -1,10 +1,10 @@
-_id: req_88f1d44540a447d5a4cc966d3f9f7e43
+_id: req_a3e3749d6e2f4af7963365c4b5d580fb
 type: Request
-parentId: fld_aeed4720406848e3bc40d7a5d255ed92
-modified: 1681051175605
-created: 1681028704441
-url: "{{ _.url_v1 }}/machines/1/slots"
-name: List
+parentId: fld_c8a5371a5c214c76acbe2c9f7e323adb
+modified: 1681145304750
+created: 1681090483536
+url: "{{ _.url_v1 }}/sync/5/slots"
+name: Get Slot
 description: ""
 method: GET
 body: {}
@@ -14,7 +14,7 @@ authentication:
   type: bearer
   prefix: Bearer
   token: "{{ _.access_token }}"
-metaSortKey: 0
+metaSortKey: -1681070320074.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

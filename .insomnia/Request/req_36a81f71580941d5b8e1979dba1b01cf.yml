@@ -1,0 +1,38 @@
+_id: req_36a81f71580941d5b8e1979dba1b01cf
+type: Request
+parentId: fld_4dc05cb191c3409496e8aed4dfd70728
+modified: 1681062807793
+created: 1681062803759
+url: "{{ _.url_v1 }}/report/stock/download"
+name: Stock Download
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_d2792ffa2bf544afbe1849be827e3fe3
+    name: from
+    value: 2023-04-07T10:10:00.000Z
+    description: ""
+    disabled: false
+  - id: pair_a71ae45d581a403a859e6d16cf6cbd9c
+    name: to
+    value: 2023-04-07T10:20:00.000Z
+    description: ""
+    disabled: false
+  - id: pair_10895b2819c244ec84ca2cf80bf97c39
+    name: available
+    value: "true"
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.access_token }}"
+  prefix: Bearer
+metaSortKey: 25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

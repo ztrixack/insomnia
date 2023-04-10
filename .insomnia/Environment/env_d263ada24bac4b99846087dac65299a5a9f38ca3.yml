@@ -1,14 +1,20 @@
 _id: env_d263ada24bac4b99846087dac65299a5a9f38ca3
 type: Environment
 parentId: wrk_d9299604fe754ae28000fced497c07ab
-modified: 1681028608989
+modified: 1681050691482
 created: 1681028279653
 name: Base Environment
 data:
   url_v1: "{{ _.host }}:{{ _.port }}/api/v1"
+  access_token: "{% response 'body', 'req_c7c48b08030b4beda430c02f4463ef1e',
+    'b64::JC5kYXRhLmFjY2Vzc190b2tlbg==::46b', 'when-expired', 600 %}"
+  refresh_token: "{% response 'body', 'req_c7c48b08030b4beda430c02f4463ef1e',
+    'b64::JC5kYXRhLnJlZnJlc2hfdG9rZW4=::46b', 'never', 60 %}"
 dataPropertyOrder:
   "&":
     - url_v1
+    - access_token
+    - refresh_token
 color: null
 isPrivate: false
 metaSortKey: 1681028279653

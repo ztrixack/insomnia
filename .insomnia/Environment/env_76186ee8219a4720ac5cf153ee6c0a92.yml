@@ -1,12 +1,12 @@
 _id: env_76186ee8219a4720ac5cf153ee6c0a92
 type: Environment
 parentId: env_d263ada24bac4b99846087dac65299a5a9f38ca3
-modified: 1681028623927
+modified: 1681143081262
 created: 1681028449039
 name: production
 data:
-  host: http://localhost
-  port: "80"
+  host: http://104.248.154.238
+  port: "7731"
 dataPropertyOrder:
   "&":
     - host

@@ -1,17 +1,24 @@
 _id: req_f4647550acad472c91d41f92c257c63d
 type: Request
 parentId: fld_d1d6bb57730e4c8fa897b683a1074b28
-modified: 1681028673690
+modified: 1681145415620
 created: 1681028655302
 url: "{{ _.url_v1 }}/machines"
 name: List
 description: ""
 method: GET
 body: {}
-parameters: []
+parameters:
+  - id: pair_f20475dd98a64b2b81225ba45465c2cd
+    name: order_status
+    value: ""
+    description: ""
 headers: []
-authentication: {}
-metaSortKey: -1681028655302
+authentication:
+  type: bearer
+  token: "{{ _.access_token }}"
+  prefix: Bearer
+metaSortKey: 0
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

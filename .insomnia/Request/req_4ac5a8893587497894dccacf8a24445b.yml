@@ -1,14 +1,18 @@
-_id: req_88f1d44540a447d5a4cc966d3f9f7e43
+_id: req_4ac5a8893587497894dccacf8a24445b
 type: Request
-parentId: fld_aeed4720406848e3bc40d7a5d255ed92
-modified: 1681051175605
-created: 1681028704441
-url: "{{ _.url_v1 }}/machines/1/slots"
+parentId: fld_dc9f543a6b7e4f3d9be4e1d93ffdf2c5
+modified: 1681145431008
+created: 1681031098024
+url: "{{ _.url_v1 }}/transactions"
 name: List
 description: ""
 method: GET
 body: {}
-parameters: []
+parameters:
+  - id: pair_382a339138874d9ea3450320a874ac4e
+    name: order_status
+    value: PAID
+    description: ""
 headers: []
 authentication:
   type: bearer

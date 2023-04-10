@@ -1,0 +1,29 @@
+_id: req_68a1cd639a2940bdb22dea4461d504a4
+type: Request
+parentId: fld_d45ad5b1952f44449d2b1b3c4f6dec65
+modified: 1681116106896
+created: 1681116068998
+url: http://localhost:8082/api/v1/link2500/sale
+name: Sale
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"merchant_id": "62295403",
+    	"price": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1681094906288.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

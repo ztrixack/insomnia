@@ -1,12 +1,12 @@
-_id: req_88f1d44540a447d5a4cc966d3f9f7e43
+_id: req_cd5f930edca04e1690f0c47c401ea65e
 type: Request
-parentId: fld_aeed4720406848e3bc40d7a5d255ed92
-modified: 1681051175605
-created: 1681028704441
-url: "{{ _.url_v1 }}/machines/1/slots"
-name: List
+parentId: fld_dc9f543a6b7e4f3d9be4e1d93ffdf2c5
+modified: 1681091614645
+created: 1681091534013
+url: "{{ _.url_v1 }}/transactions/18/cancel"
+name: Cancel
 description: ""
-method: GET
+method: POST
 body: {}
 parameters: []
 headers: []
@@ -14,7 +14,7 @@ authentication:
   type: bearer
   prefix: Bearer
   token: "{{ _.access_token }}"
-metaSortKey: 0
+metaSortKey: -1681090654112
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
